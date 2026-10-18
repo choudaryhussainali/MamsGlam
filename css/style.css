@@ -633,16 +633,20 @@ h1 em, h2 em, .display em, .quote em {
   .tile__label {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.15rem;
-    padding: 0.55rem 0.9rem 0.6rem;
+    gap: 0.3rem;
+    padding: 0.8rem 1rem 0.85rem;
   }
   .tile__label h3 {
     white-space: normal;
     overflow: visible;
     text-overflow: clip;
-    line-height: 1.25;
+    line-height: 1.3;
+    font-size: 1.02rem;
   }
-  .tile__price { font-size: 0.8rem; }
+  .tile__price {
+    font-size: 0.84rem;
+    padding-top: 0.05rem;
+  }
 }
 .tile--promo {
   grid-column: span 2;
