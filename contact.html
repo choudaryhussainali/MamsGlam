@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Mams Glam</title>
+  <meta name="description" content="Questions about an order, a colour, or a custom piece? Write to the Mams Glam studio — we answer within two working days.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact — Mams Glam">
+  <meta property="og:description" content="Write to the studio — we answer within two working days.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta name="theme-color" content="#FCFCF9">
+  <link rel="icon" type="image/png" sizes="32x32" href="logos/web/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="logos/web/favicon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="shell" viewBox="0 0 100 100">
+        <path fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" d="M 50 86 Q 16.1 51 8.45 41.87 A 10.52 10.52 0 0 1 14.26 25.94 A 10.52 10.52 0 0 1 25.91 13.6 A 10.52 10.52 0 0 1 41.5 6.87 A 10.52 10.52 0 0 1 58.5 6.87 A 10.52 10.52 0 0 1 74.09 13.6 A 10.52 10.52 0 0 1 85.74 25.94 A 10.52 10.52 0 0 1 91.55 41.87 Q 83.9 51 50 86 Z M 50 86 L 14.26 25.94 M 50 86 L 25.91 13.6 M 50 86 L 41.5 6.87 M 50 86 L 58.5 6.87 M 50 86 L 74.09 13.6 M 50 86 L 85.74 25.94" />
+      </symbol>
+      <symbol id="i-search" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-bag" viewBox="0 0 24 24">
+        <path d="M6.5 8.5h11l-1 12h-9l-1-12z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M9 8.5V7a3 3 0 0 1 6 0v1.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-user" viewBox="0 0 24 24">
+        <circle cx="12" cy="8.2" r="3.6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M5 20c1.4-3.6 4-5.2 7-5.2s5.6 1.6 7 5.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24">
+        <path d="M4 9h16M4 15h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-close" viewBox="0 0 24 24">
+        <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <button class="icon-btn menu-btn" id="menu-btn" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg aria-hidden="true"><use href="#i-menu"/></svg>
+      </button>
+      <a class="brand" href="index.html" aria-label="Mams Glam — home">
+        <img src="logos/web/logo-horizontal.png" alt="Mams Glam" width="1116" height="225">
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a class="nav__link" href="shop.html">Shop</a></li>
+          <li><a class="nav__link" href="shop.html">Collections</a></li>
+          <li><a class="nav__link" href="about.html">Our Story</a></li>
+          <li><a class="nav__link" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="search-btn" aria-label="Search the shop"><svg aria-hidden="true"><use href="#i-search"/></svg></button>
+        <button class="icon-btn" data-soon="Accounts are coming soon — for now, orders are confirmed by email." aria-label="Account"><svg aria-hidden="true"><use href="#i-user"/></svg></button>
+        <button class="icon-btn" id="bag-btn" aria-label="Open bag">
+          <svg aria-hidden="true"><use href="#i-bag"/></svg>
+          <span class="cart-count" hidden>0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="overlay-panel mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu" aria-hidden="true">
+    <button class="icon-btn overlay-panel__close" data-close aria-label="Close menu"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+    <ul>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="shop.html">Collections</a></li>
+      <li><a href="about.html">Our Story</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cart.html">Bag</a></li>
+    </ul>
+    <p class="mobile-menu__meta">Mams Glam · Handmade with love</p>
+  </div>
+
+  <div class="overlay-panel search-panel" id="search-panel" role="dialog" aria-modal="true" aria-label="Search" aria-hidden="true">
+    <button class="icon-btn overlay-panel__close" data-close aria-label="Close search"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+    <div class="search-panel__inner">
+      <div class="search-field">
+        <svg aria-hidden="true"><use href="#i-search"/></svg>
+        <label class="visually-hidden" for="search-input">Search the shop</label>
+        <input id="search-input" type="search" placeholder="Search the shop…" autocomplete="off">
+      </div>
+      <div class="search-results" id="search-results" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <main id="main">
+    <div class="container page-head">
+      <p class="eyebrow">Say hello</p>
+      <h1>Write to <em>the studio</em></h1>
+      <p class="lede">Questions about an order, a colour, or a piece that doesn't exist yet — we read everything.</p>
+    </div>
+
+    <section class="section section--flush-top">
+      <div class="container contact-grid">
+        <div class="contact-meta reveal">
+          <h2>The details</h2>
+          <dl>
+            <div><dt>Email</dt><dd><a class="link-slide" href="mailto:hello@mamsglam.example">hello@mamsglam.example</a></dd></div>
+            <div><dt>Social</dt><dd><a href="#" data-soon="Our Instagram is coming soon.">Instagram</a> · <a href="#" data-soon="Our Pinterest is coming soon.">Pinterest</a></dd></div>
+            <div><dt>Studio hours</dt><dd>Making Mon–Thu · replies within two working days</dd></div>
+            <div><dt>Shipping from</dt><dd>Worldwide, tracked, from our little studio</dd></div>
+          </dl>
+          <p class="prose" style="font-size:0.9rem;color:var(--ink-soft)">Trade or press enquiry? Use the form and start your message with “Trade” or “Press”.</p>
+        </div>
+
+        <div>
+          <form class="form" id="contact-form" novalidate>
+            <div class="form__row form__row--2">
+              <div class="field">
+                <label for="cf-name">Your name <span class="req" aria-hidden="true">*</span></label>
+                <input id="cf-name" name="name" type="text" autocomplete="name" required>
+                <p class="field__msg" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="cf-email">Email <span class="req" aria-hidden="true">*</span></label>
+                <input id="cf-email" name="email" type="email" autocomplete="email" required>
+                <p class="field__msg" aria-live="polite"></p>
+              </div>
+            </div>
+            <div class="field">
+              <label for="cf-topic">What is it about?</label>
+              <select id="cf-topic" name="topic">
+                <option>An order I have placed</option>
+                <option>A question before ordering</option>
+                <option>Custom / wholesale enquiry</option>
+                <option>Press or collaboration</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="cf-msg">Your message <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="cf-msg" name="message" required></textarea>
+              <p class="field__msg" aria-live="polite"></p>
+            </div>
+            <div class="form__consent">
+              <input id="cf-consent" type="checkbox" required>
+              <label for="cf-consent">I'm happy for Mams Glam to email me back about this enquiry. Nothing else — no lists, no noise.</label>
+            </div>
+            <button class="btn btn--primary" type="submit">Send message</button>
+          </form>
+
+          <div class="form__success" id="contact-success" hidden>
+            <svg class="shell-tick" viewBox="0 0 100 100" aria-hidden="true"><use href="#shell"/></svg>
+            <h2>Message received</h2>
+            <p class="lede">Thank you — the studio will reply within two working days.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container measure">
+        <div class="section-head reveal">
+          <p class="eyebrow">Good to know</p>
+          <h2>Questions, <em>answered</em></h2>
+        </div>
+        <div class="accordion reveal">
+          <details>
+            <summary>How long until my order ships?</summary>
+            <div class="accordion__body"><p>Everything is cast after you order. Please allow 3–5 working days of making and curing, then shipping time on top — tracked, worldwide.</p></div>
+          </details>
+          <details>
+            <summary>What if a piece arrives damaged?</summary>
+            <div class="accordion__body"><p>Tell us within 30 days with a photo, and we will remake and reship it — no forms, no fuss. Concrete is tougher than it looks, but parcels occasionally disagree.</p></div>
+          </details>
+          <details>
+            <summary>Can I order a custom colour?</summary>
+            <div class="accordion__body"><p>Often, yes — custom pours start from six pieces. Start a message with “Custom” and tell us the colour you dream in.</p></div>
+          </details>
+          <details>
+            <summary>Do you do wholesale?</summary>
+            <div class="accordion__body"><p>We love kindred stockists. Start a message with “Trade” and we will send the line sheet and lead times.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer site-footer--slim">
+    <div class="container">
+      <div class="footer__bar footer__bar--solo">
+        <p>© <span data-year>2026</span> Mams Glam · Handmade with love · Demonstration store — prices are placeholders.</p>
+        <a class="link-slide link-slide--light" href="index.html">Back to home</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <aside class="drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer__head">
+      <h2>Your bag</h2>
+      <button class="icon-btn" data-close aria-label="Close bag"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="drawer__body" id="drawer-body"></div>
+    <div class="drawer__foot" id="drawer-foot"></div>
+  </aside>
+
+  <p class="toast" id="toast" role="status" aria-live="polite"></p>
+
+  <script src="js/products.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

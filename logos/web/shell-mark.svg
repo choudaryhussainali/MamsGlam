@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Mams Glam shell mark">
+  <!-- Decorative shell motif traced from the Mams Glam emblem.
+       For brand moments (header, footer, favicon) always use the official
+       PNG lockups in this folder — this mark is for small decorative use:
+       section ticks, watermarks and loading states. Recolour via currentColor
+       by inlining the path; this file is inked in Moss Ink #26301F. -->
+  <g fill="none" stroke="#26301F" stroke-width="3.5" stroke-linecap="round">
+    <path d="M 50 86
+             Q 16.1 51 8.45 41.87
+             A 10.52 10.52 0 0 1 14.26 25.94
+             A 10.52 10.52 0 0 1 25.91 13.6
+             A 10.52 10.52 0 0 1 41.5 6.87
+             A 10.52 10.52 0 0 1 58.5 6.87
+             A 10.52 10.52 0 0 1 74.09 13.6
+             A 10.52 10.52 0 0 1 85.74 25.94
+             A 10.52 10.52 0 0 1 91.55 41.87
+             Q 83.9 51 50 86 Z
+             M 50 86 L 14.26 25.94
+             M 50 86 L 25.91 13.6
+             M 50 86 L 41.5 6.87
+             M 50 86 L 58.5 6.87
+             M 50 86 L 74.09 13.6
+             M 50 86 L 85.74 25.94" />
+  </g>
+</svg>

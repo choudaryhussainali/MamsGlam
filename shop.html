@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop all pieces — Mams Glam</title>
+  <meta name="description" content="Browse every hand-cast Mams Glam piece: shell dishes, ribbed valet trays, pebble bowls, oval vanity trays, stone platters and vanity companions.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shop all pieces — Mams Glam">
+  <meta property="og:description" content="Hand-cast trays and dishes in calm, chalky colours.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta name="theme-color" content="#FCFCF9">
+  <link rel="icon" type="image/png" sizes="32x32" href="logos/web/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="logos/web/favicon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="shop">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="shell" viewBox="0 0 100 100">
+        <path fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" d="M 50 86 Q 16.1 51 8.45 41.87 A 10.52 10.52 0 0 1 14.26 25.94 A 10.52 10.52 0 0 1 25.91 13.6 A 10.52 10.52 0 0 1 41.5 6.87 A 10.52 10.52 0 0 1 58.5 6.87 A 10.52 10.52 0 0 1 74.09 13.6 A 10.52 10.52 0 0 1 85.74 25.94 A 10.52 10.52 0 0 1 91.55 41.87 Q 83.9 51 50 86 Z M 50 86 L 14.26 25.94 M 50 86 L 25.91 13.6 M 50 86 L 41.5 6.87 M 50 86 L 58.5 6.87 M 50 86 L 74.09 13.6 M 50 86 L 85.74 25.94" />
+      </symbol>
+      <symbol id="i-search" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-bag" viewBox="0 0 24 24">
+        <path d="M6.5 8.5h11l-1 12h-9l-1-12z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M9 8.5V7a3 3 0 0 1 6 0v1.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-user" viewBox="0 0 24 24">
+        <circle cx="12" cy="8.2" r="3.6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M5 20c1.4-3.6 4-5.2 7-5.2s5.6 1.6 7 5.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24">
+        <path d="M4 9h16M4 15h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-close" viewBox="0 0 24 24">
+        <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <button class="icon-btn menu-btn" id="menu-btn" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg aria-hidden="true"><use href="#i-menu"/></svg>
+      </button>
+      <a class="brand" href="index.html" aria-label="Mams Glam — home">
+        <img src="logos/web/logo-horizontal.png" alt="Mams Glam" width="1116" height="225">
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a class="nav__link" href="shop.html" aria-current="page">Shop</a></li>
+          <li><a class="nav__link" href="shop.html">Collections</a></li>
+          <li><a class="nav__link" href="about.html">Our Story</a></li>
+          <li><a class="nav__link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="search-btn" aria-label="Search the shop"><svg aria-hidden="true"><use href="#i-search"/></svg></button>
+        <button class="icon-btn" data-soon="Accounts are coming soon — for now, orders are confirmed by email." aria-label="Account"><svg aria-hidden="true"><use href="#i-user"/></svg></button>
+        <button class="icon-btn" id="bag-btn" aria-label="Open bag">
+          <svg aria-hidden="true"><use href="#i-bag"/></svg>
+          <span class="cart-count" hidden>0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="overlay-panel mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu" aria-hidden="true">
+    <button class="icon-btn overlay-panel__close" data-close aria-label="Close menu"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+    <ul>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="shop.html">Collections</a></li>
+      <li><a href="about.html">Our Story</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cart.html">Bag</a></li>
+    </ul>
+    <p class="mobile-menu__meta">Mams Glam · Handmade with love</p>
+  </div>
+
+  <div class="overlay-panel search-panel" id="search-panel" role="dialog" aria-modal="true" aria-label="Search" aria-hidden="true">
+    <button class="icon-btn overlay-panel__close" data-close aria-label="Close search"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+    <div class="search-panel__inner">
+      <div class="search-field">
+        <svg aria-hidden="true"><use href="#i-search"/></svg>
+        <label class="visually-hidden" for="search-input">Search the shop</label>
+        <input id="search-input" type="search" placeholder="Search the shop…" autocomplete="off">
+      </div>
+      <div class="search-results" id="search-results" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <main id="main">
+    <div class="container page-head">
+      <p class="eyebrow">The collection</p>
+      <h1>Shop <em>all pieces</em></h1>
+      <p class="lede">Seven quiet objects, each poured by hand and finished in the colour of your choosing.</p>
+    </div>
+
+    <div class="toolbar container" id="shop-filters">
+      <div class="toolbar__set toolbar__set--type">
+        <span class="toolbar__label">Type</span>
+      <div class="chip-row" role="group" aria-label="Filter by type">
+        <button class="chip" data-kind="type" data-val="All" aria-pressed="true">All pieces</button>
+        <button class="chip" data-kind="type" data-val="Dishes" aria-pressed="false">Dishes</button>
+        <button class="chip" data-kind="type" data-val="Trays" aria-pressed="false">Trays</button>
+        <button class="chip" data-kind="type" data-val="Bowls" aria-pressed="false">Bowls</button>
+        <button class="chip" data-kind="type" data-val="Platters" aria-pressed="false">Platters</button>
+        <button class="chip" data-kind="type" data-val="Vanity" aria-pressed="false">Vanity</button>
+      </div>
+      </div>
+      <div class="toolbar__set toolbar__set--colour">
+        <span class="toolbar__label">Colour</span>
+      <div class="chip-row" role="group" aria-label="Filter by colour">
+        <button class="chip" data-kind="colour" data-val="All" aria-pressed="true">Any colour</button>
+        <button class="chip" data-kind="colour" data-val="Blush" aria-pressed="false">Blush</button>
+        <button class="chip" data-kind="colour" data-val="Green" aria-pressed="false">Green</button>
+        <button class="chip" data-kind="colour" data-val="Blue" aria-pressed="false">Blue</button>
+        <button class="chip" data-kind="colour" data-val="Warm" aria-pressed="false">Warm</button>
+        <button class="chip" data-kind="colour" data-val="Neutral" aria-pressed="false">Neutral</button>
+        <button class="chip" data-kind="colour" data-val="Charcoal" aria-pressed="false">Charcoal</button>
+        <button class="chip" data-kind="colour" data-val="Plum" aria-pressed="false">Plum</button>
+      </div>
+      </div>
+      <div class="toolbar__sort">
+        <label class="toolbar__label" for="shop-sort">Sort</label>
+        <select id="shop-sort">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price · low to high</option>
+        <option value="price-desc">Price · high to low</option>
+        <option value="newest">Newest</option>
+      </select>
+      </div>
+    </div>
+
+    <section class="section section--flush-top" aria-label="Products">
+      <div class="container">
+        <p class="shop-count" id="shop-count" aria-live="polite"></p>
+        <div class="card-grid" id="shop-grid">
+          <noscript><p class="no-results">Please enable JavaScript to browse the collection.</p></noscript>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer site-footer--slim">
+    <div class="container">
+      <div class="footer__bar footer__bar--solo">
+        <p>© <span data-year>2026</span> Mams Glam · Handmade with love · Demonstration store — prices are placeholders.</p>
+        <a class="link-slide link-slide--light" href="index.html">Back to home</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <aside class="drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer__head">
+      <h2>Your bag</h2>
+      <button class="icon-btn" data-close aria-label="Close bag"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="drawer__body" id="drawer-body"></div>
+    <div class="drawer__foot" id="drawer-foot"></div>
+  </aside>
+
+  <p class="toast" id="toast" role="status" aria-live="polite"></p>
+
+  <script src="js/products.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# Internal QA / debug artefacts
+_qa/
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store

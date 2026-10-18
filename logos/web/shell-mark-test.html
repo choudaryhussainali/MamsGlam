@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Shell mark trace test v4</title>
+<style>
+  body { margin: 0; background: #FCFCF9; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 8px; font-family: sans-serif; }
+  figure { margin: 0; text-align: center; }
+  img, svg { width: 100%; height: auto; }
+  figcaption { font-size: 12px; color: #5E6A58; padding: 4px; }
+  .on-dark { background: #3F6131; border-radius: 8px; }
+  .on-sage { background: #BBD4AB; border-radius: 8px; }
+</style>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs><path id="shell-path" fill="none" stroke-linecap="round" d="M 50 86 Q 16.1 51 8.45 41.87 A 10.52 10.52 0 0 1 14.26 25.94 A 10.52 10.52 0 0 1 25.91 13.6 A 10.52 10.52 0 0 1 41.5 6.87 A 10.52 10.52 0 0 1 58.5 6.87 A 10.52 10.52 0 0 1 74.09 13.6 A 10.52 10.52 0 0 1 85.74 25.94 A 10.52 10.52 0 0 1 91.55 41.87 Q 83.9 51 50 86 Z M 50 86 L 14.26 25.94 M 50 86 L 25.91 13.6 M 50 86 L 41.5 6.87 M 50 86 L 58.5 6.87 M 50 86 L 74.09 13.6 M 50 86 L 85.74 25.94" /></defs>
+  </svg>
+
+  <figure>
+    <img src="favicon-180.png" alt="original emblem">
+    <figcaption>original</figcaption>
+  </figure>
+  <figure>
+    <svg viewBox="0 0 100 100"><use href="#shell-path" stroke="#26301F" stroke-width="3" /></svg>
+    <figcaption>trace v4</figcaption>
+  </figure>
+  <figure class="on-dark">
+    <svg viewBox="0 0 100 100"><use href="#shell-path" stroke="#FCFCF9" stroke-width="3" /></svg>
+    <figcaption>on deep fern</figcaption>
+  </figure>
+  <figure class="on-sage">
+    <svg viewBox="0 0 100 100"><use href="#shell-path" stroke="#26301F" stroke-width="3" /></svg>
+    <figcaption>on pale sage</figcaption>
+  </figure>
+</body>
+</html>
